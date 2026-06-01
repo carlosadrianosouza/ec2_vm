@@ -27,6 +27,7 @@ resource "aws_instance" "example" {
 
   tags = {
     Name = var.name
+    env = "1535"
   }
 
   user_data = <<-EOF
